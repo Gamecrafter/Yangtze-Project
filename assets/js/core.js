@@ -7,9 +7,9 @@ function next(){
         nextSlide = $(".slide").first();
         nextDot = $(".dot").first();
     }
-    currentSlide.slideToggle(800).removeClass("active-slide");
+    currentSlide.slideToggle(1200).removeClass("active-slide");
     currentDot.removeClass("active-dot");
-    nextSlide.slideToggle(800).addClass("active-slide");
+    nextSlide.slideToggle(1200).addClass("active-slide");
     nextDot.addClass("active-dot");
 }
 function prev(){
@@ -21,9 +21,9 @@ function prev(){
         prevSlide = $(".slide").last();
         prevDot = $(".dot").last();
     }
-    currentSlide.slideToggle(800).removeClass("active-slide");
+    currentSlide.slideToggle(1200).removeClass("active-slide");
     currentDot.removeClass("active-dot");
-    prevSlide.slideToggle(800).addClass("active-slide");
+    prevSlide.slideToggle(1200).addClass("active-slide");
     prevDot.addClass("active-dot");
 }
 function toggleFullscreen(){

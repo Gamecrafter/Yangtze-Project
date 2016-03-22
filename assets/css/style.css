@@ -69,20 +69,20 @@ body{
     font-size: 32px;
 }
 #slider-nav{
-    text-align: center;
     margin-top: 20px;
+    text-align: center;
 }
 .arrow-prev{
-    margin-right: 45px;
     display: inline-block;
-    vertical-align: top;
+    margin-right: 45px;
     margin-top: 9px;
+    vertical-align: top;
 }
 .arrow-next{
-    margin-left: 45px;
     display: inline-block;
-    vertical-align: top;
+    margin-left: 45px;
     margin-top: 9px;
+    vertical-align: top;
 }
 #slider-nav{
     background: #e0e0e0;
