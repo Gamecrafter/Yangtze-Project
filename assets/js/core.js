@@ -28,9 +28,10 @@ function prev(){
 }
 function toggleFullscreen(){
     if(!document.fullscreenElement && !document.mozFullScreenElement && !document.webkitFullscreenElement){
-        if(document.documentElement.requestFullscreen) document.documentElement.requestFullscreen();
-        else if(document.documentElement.mozRequestFullScreen) document.documentElement.mozRequestFullScreen();
-        else if(document.documentElement.webkitRequestFullscreen) document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+        var doc = document.documentElement;
+        if(doc.requestFullscreen) doc.requestFullscreen();
+        else if(doc.mozRequestFullScreen) doc.mozRequestFullScreen();
+        else if(doc.webkitRequestFullscreen) doc.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
     }
     else{
         if(document.cancelFullScreen) document.cancelFullScreen();
