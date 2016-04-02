@@ -1,9 +1,5 @@
-::selection{
-    background: transparent;
-}
 body{
     background: #d3d3d3;
-    overflow: hidden;
 }
 .container{
     width: 960px;
@@ -16,7 +12,6 @@ body{
 }
 .slide{
     background-size: cover;
-    cursor: none;
     display: none;
     height: 100%;
     left: 0;
