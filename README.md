@@ -8,6 +8,7 @@ a website, the teacher said it only had to be a PowerPoint presentation. This wa
 - JavaScript
 
 ###Resources utilized:
+- Animate
 - Bootstrap
 - jQuery
-- Some code from Codecademy courses (Hey, don't judge)
+- Some code from Codecademy courses (hey, don't judge)
