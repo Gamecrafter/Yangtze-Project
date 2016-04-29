@@ -7,9 +7,9 @@ function next(){
         nextSlide = $(".slide").first();
         nextDot = $(".dot").first();
     }
-    currentSlide.removeClass("active-slide animated slideInUp");
+    currentSlide.removeClass("active-slide animated slideInDown");
     currentDot.removeClass("active-dot");
-    nextSlide.addClass("active-slide animated slideInUp");
+    nextSlide.addClass("active-slide animated slideInDown");
     nextDot.addClass("active-dot");
 }
 function prev(){
